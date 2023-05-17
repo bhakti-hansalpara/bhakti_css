@@ -1,128 +1,130 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
- }
- body{
+}
+
+body {
     background-color: rgb(175, 206, 206);
- }
- .cointainer{
-    height: 100vh;
-    width: 100vw;
-    justify-content: space-between;
-    justify-items: center;
-    /* border: 20px solid black; */
- }
- .header{
+}
+
+.container {
+    max-width: 767px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.header {
     background-color: black;
+    padding: 10px 0;
+}
+
+.header-content {
     display: flex;
- }
- .logo{
-background-color: rgb(253, 252, 252);
+    align-items: center;
+    justify-content: space-between;
+}
 
- }
- .opstion{
+.logo {
     background-color: black;
- }
 
- select{
-background-color: black;
-color: white;
- }
-button{
-background-color: black;
-color: white;
 }
- 
-.b1{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(0, 0, 0);
+
+.opstion {
+    background-color: black;
 }
-.div{
+
+select {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+.sign-btn {
+    background-color: black;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+}
+
+
+.div {
     color: black;
     justify-content: center;
-    align-items: center;
     display: flex;
-    position: relative;
-}
-.div p{
-    padding: 5px;
-    justify-content: center;
-}
-.div1 img, .div2 img, .div3 img{
-    border-radius: 100%;
-}
-.div1 p{
-    font-family:Arial, Helvetica, sans-serif;
-    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-br{
+h1 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.div p {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div1 img {
+    border-radius: 100%;
+    width: 100%;
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.div1 {
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+}
+
+.div1 h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.div1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+br {
     padding: 10px;
     margin: 10px;
 }
-.div2 p{
-    font-family:Arial, Helvetica, sans-serif;
-    padding: 10px;
-}
-.div3 p{
-    font-family:Arial, Helvetica, sans-serif;
-    padding: 10px;
-}
-.main-class{
+
+.main-class {
     background-color: bisque;
     display: flex;
     flex-direction: column;
     border: 5px solid rgb(247, 243, 243);
     padding: 50px;
     margin: 100px;
-    
+
 }
-.div{
-    display: flex;
-}
-.box{
+
+.box {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+
 }
-.div1{
-    width: 30%;
-    /* display: flex; */
+
+.icon i:first-child {
+    margin-right: 10px;
 }
-.div2{
-    /* display: flex; */
-    width: 30%;
-}.div3{
-    width: 30%;
-    /* display: flex; */
-}
-*p{
-    
-}
-.div1 img p h2{
-    text-align: center;
-}
-.div2 img p{
-    text-align: center;
-}
-.div3 img p{
-    text-align: center;
-}
-.contain h1{
-text-align: center;
-}
-.div p{
-    padding: 20px;
-}
-.div1 h2{
-    padding: 10px;
-}
-.div2 h2{
-    padding: 10px;
-}
-.div3 h2{
-    padding: 10px;
+
+.icon i {
+    font-size: 15px;
+    color: white;
+
 }
