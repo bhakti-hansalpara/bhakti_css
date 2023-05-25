@@ -867,7 +867,7 @@ display: flex;
     display: flex;
  }
  
- @media screen and (max-width:700px) {
+ @media screen and (max-width:400px) {
    .text-contein{
         flex-direction: column;
     }

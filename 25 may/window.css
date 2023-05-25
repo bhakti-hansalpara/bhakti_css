@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.cointainer{
+    height: 100%;
+    width: 100%;
+}
+.wrraper h5{
+    color: rgb(212, 212, 14);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.wrraper h1{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

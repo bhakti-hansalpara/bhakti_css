@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.cointainer{
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25px;
+    padding: 20px 0;
+}
+.wrraper h5{
+    color: rgb(212, 212, 14);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.wrraper h1{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 30%;
+}
+.row1 .door1{
+  
+    align-items: center;
+}
+img{
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.text h3{
+    margin: 10px;
+}
+.text2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 25px;
+    padding: 20px 0;
+}
+@media screen and (max-width:500px){
+    .content{
+        flex-direction: column;
+    }
+    .text2{
+        flex-direction: column;
+    }
+    .text{
+        flex-direction: row;
+    }
+}
