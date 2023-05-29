@@ -1,0 +1,96 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.cointainer{
+    height: 100vh;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .text1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 100%;
+    max-width: 300px;
+}
+.placeholder input[type=text]{
+    /* padding: 20px; */
+    height: 43px;
+    width: 400px;
+}
+::placeholder{
+    padding: 20px;
+    position: relative;
+}
+button{
+    background-color: rgb(114, 114, 114);
+    color: white;
+    position: absolute;
+    padding: 10px;
+    font-size: 10px;
+}
+.text2 p{
+    font-size: 10px;
+    color: white;
+    text-align: right;
+}
+.text2 h4{
+    color: white;
+    font-size: 20px;
+}
+.logo p{
+    font-size: 15px;
+    color: white;
+    width: 100%;
+    max-width: 260px;
+}
+.main-name{
+    display: flex;
+}
+.name{
+    display: flex;0
+}
+.content{
+    padding: 70px;
+    display: flex;
+}
+.logo{
+    display: flex;
+}
+.content{
+    display: flex;
+}
+.name h3{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 10px;
+}
+.name ul li{
+    padding: 10px;
+    color: white;
+    list-style-type: none;
+}
+.name li{
+    padding: 10px;
+}
+ .photo2 .box1{
+    border: 1px solid white;
+    height: 73px;
+    width: 77px;
+}
+ .photo2 .box1 h4{
+    color: white;
+    font-size: 15px;
+    height: 100%;
+}

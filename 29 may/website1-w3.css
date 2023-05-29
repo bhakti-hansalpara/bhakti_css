@@ -1,0 +1,282 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+  a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+  }
+  .navbar{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+  }
+ .cafe-photo img{
+    width: 100%;
+    height: 100%;
+    max-height: 391px;
+  }
+.cafe-photo{
+    position: relative;
+}
+  .address .text3 span{ 
+    font-size: 15px;
+  }
+  .text2{
+    font-size: 90px;
+  }
+  .time{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .text3{
+    /* color: white; */
+    font-size: 15px;
+  }
+  .text{
+    bottom: 50%;
+    position: absolute;
+    right: 85%;
+    transform: translate(0px, 120px);
+}
+ span{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.tittle{
+    text-align: center;
+    padding: 30px;
+}
+.praghph p{
+    width: 100%;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: start;
+}
+.praghph p:first-child{
+    padding-bottom: 20px;
+}
+.diff-text p{
+width: 100%;
+max-width: 50%;
+text-align: center;
+margin: 0 auto;
+background-color: rgb(233 233 233);;
+color: black;
+line-height: 35px;
+padding-top: 20px;
+text-align: start;
+border-left: 5px solid gray;
+}
+.diff-text{
+    padding-top: 20px;
+}
+.content-photo img{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 55%;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+}
+.content-text p{
+font-size: 20px;
+text-align: start;
+width: 100%;
+max-width: 50%;
+margin: 0 auto;
+line-height: 50px;
+}
+.menu span{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 16%;
+    display: flex;
+    justify-content: center;
+   
+}  
+.menu{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar2{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+   width: 100%;
+   height: 100%;
+   padding: 10px;
+   border: none;
+   box-shadow: 0 0  10px gray;
+   padding-bottom: 20px;
+}
+.eat p{
+    padding: 5px;
+    text-align: center;
+}
+.eat{
+    background-color: black;
+    color: white;
+    width: 50%;
+    font-size: 20px;
+}
+.drink{
+    font-size: 20px;
+    color: black;
+    width: 50%;
+    text-align: center;
+}
+.eat-items{
+
+  align-items: start;
+  width: 50%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  border: 2px solid;
+  line-height: 30px;
+  font-size: 20px;
+  padding: 10px;
+border: none;
+    box-shadow: 0 0  10px gray;
+}
+.eat-items p{
+    color: gray;
+    font-size: 15px;
+}
+.coffee img{
+    height: 100%;
+    max-height: 50%;
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 30px ;
+    padding-bottom: 20px;
+}
+.where span{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.where{
+    max-width: 100%;
+    width: 44%;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto; 
+    padding: 20px;
+}
+.where-text p{
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    max-width: 57%;
+    text-align: start;
+    margin: 0 auto;
+    padding: 30px;
+    color: gray;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+.map img{
+    height: 101%;
+    max-height: 81%;
+    width: 100%;
+    max-width: 50%;
+    max-height: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+.map-text span{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: start;
+}
+.map-text p{
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 2rem;
+}
+.map-text p:last-child{
+    padding-bottom: 20px;
+}
+.map-text{
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+.write{
+    width: 103%;
+    max-width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    max-height: 150%;
+    margin-bottom: 2rem;
+}
+.write input[type=text]{
+    font-size: 15px;
+    padding: 10px;
+    padding-right: 300px;
+    margin-bottom: 2rem;
+}
+.write input[type=date]{
+    font-size: 15px;
+    padding: 10px;
+    padding-right: 357px;
+    margin-bottom: 2rem;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+
+}
+.button {
+    background-color: BLACK;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .btn{
+  padding-top: 20px;
+  }
