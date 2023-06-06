@@ -1,0 +1,150 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 330px;
+    height: 491px;
+    background-color: rgb(220, 234, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+i{
+    color: blue;
+    padding-right: 7px;
+}
+span{
+    font-size: 17px;
+    letter-spacing: .5px;
+    padding-left: 10px;
+}
+.profile-photo{
+    padding: 17px;
+    display: flex;
+}
+.head{
+    background-color: white;
+    border-radius: 11px;
+    width: 100%;
+    max-width: 294px;
+    /* padding: 20px; */
+    margin: 20px;
+}
+.profile-photo img{
+    height: 90px;
+    width: 82px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+.content p:last-child{
+  font-size: 15px;
+  margin-top: 10px;
+}
+.content p:first-child{
+    font-size: 20px;
+  }
+  .content{
+    padding-left: 10px;
+  }
+  .content i{
+    color: black;
+    margin-left: 163px;
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  .btn1{
+    padding-right: 15px;
+  }
+  .btn1 button{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-right: 43px; */
+  }
+  .btn2 button{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 7px;
+   border: 1px solid black;
+   
+  }
+  .btn2{
+    box-shadow: 0px 15px 10px -15px lightblue;
+    border: none;
+    margin-left: 20px;
+  }
+  .deails{
+    padding: 20px;
+    background-color: rgb(220, 234, 238); 
+  }
+  .information{
+    padding: 5px;
+    background-color: white;
+  }
+  .all select{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(228, 243, 248);
+  }
+  input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    
+  }
+   ::placeholder{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(233, 243, 247);
+  }
+  select{
+    padding: 5px;
+    background-color: rgb(233, 243, 247);
+    border: none;
+    border-radius: 5px;
+  }
+  input::date{
+    background-color: rgb(233, 243, 247);
+  }
+  button{
+    background-color: rgb(228, 222, 222);
+    color: blue;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+  }
+ .info2,.info3{
+    padding: 5px;
+    background-color: white;
+ }
+ .details2 ,.del3{
+    padding: 20px;
+    background-color: rgb(220, 234, 238);
+ }
+ .sub-btn button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    padding-right: 121px;
+    padding-left: 121px;
+    text-align: center;
+ }
+ .sub-btn{
+    padding: 20px;
+ }
+ 

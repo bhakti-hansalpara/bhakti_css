@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 330px;
+    height: 491px;
+    background-color: rgb(220, 234, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+i{
+    color: blue;
+    padding-right: 7px;
+}
+span{
+    font-size: 17px;
+    padding-left: 10px;
+    letter-spacing: .5px;
+}
+.profile-photo{
+    padding: 17px;
+    display: flex;
+}
+.head{
+    background-color: white;
+    border-radius: 11px;
+    width: 100%;
+    max-width: 294 px;
+    /* padding: 20px; */
+    margin: 20px;
+}
+.profile-photo img{
+    height: 90px;
+    width: 82px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+.content p:last-child{
+  font-size: 15px;
+  margin-top: 10px;
+}
+.content p:first-child{
+    font-size: 20px;
+  }
+  .content{
+    padding-left: 10px;
+  }
+  .content i{
+    color: black;
+    margin-left: 163px;
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  .btn1{
+    padding-right: 15px;
+  }
+  .btn1 button{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-right: 43px; */
+  }
+  .btn2 button{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 7px;
+    /* border: none; */
+    border: 1px solid black;
+  }
+  .btn2{
+    box-shadow: 0px 15px 10px -15px lightblue;
+    border: none;
+    margin-left: 20px;
+  }
+  .deails{
+    padding: 20px;
+    background-color: rgb(220, 234, 238); 
+  }
+  .information{
+    padding: 5px;
+    background-color: white;
+  }
+  .all select{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(228, 243, 248);
+  }
+  input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    
+  }
+   ::placeholder{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(233, 243, 247);
+  }
+  select{
+    padding: 5px;
+    background-color: rgb(233, 243, 247);
+    border: none;
+    border-radius: 5px;
+  }
+  input::date{
+    background-color: rgb(233, 243, 247);
+  }
+  button{
+    background-color: rgb(228, 222, 222);
+    color: blue;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+  }
+ .info2,.info3{
+    padding: 5px;
+    background-color: white;
+ }
+ .details2 ,.del3{
+    padding: 20px;
+    background-color: rgb(220, 234, 238);
+ }
+ .sub-btn button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    padding-right: 121px;
+    padding-left: 121px;
+    text-align: center;
+ }
+ .sub-btn{
+    padding: 20px;
+ }
+ 
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile-view</title>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="3_task1.css">
+</head>
+
+<body>
+    <div class="cointainer">
+        <i class="fa-solid fa-angle-left"></i>
+        <span><strong> My Profile</strong></span>
+        <div class="head">
+            <div class="profile-photo">
+                <div class="img">
+                    <img src="./photos/profile-photo.jpg">
+                </div>
+                <div class="content">
+                    <i class="fa-solid fa-pen"></i>
+                    <p><strong> Dr Bhaskar Sharma</strong>
+                    </p>
+                    <p>DRID A57601</p>
+                </div>
+            </div>
+            <div class="btn">
+                <div class="btn1">
+                    <button>Doctor profile</button>
+                </div>
+                <div class="btn2">
+                    <button>General Information</button>
+                </div>
+            </div>
+        </div>
+
+        <span><strong>Personal Information</strong></span>
+        <div class="deails">
+            <div class="information">
+                <form>
+                    <div class="all">
+                        <lable for="name">Title</lable><br>
+                        <select id="name" name="name"><br>
+                            <option value="Dr">DR</option><br>
+                            <option value="Dr">Teacher</option>
+                            <option value="Dr">Engineear</option><br>
+                            <label for="fname">First name:</label><br> 
+                             <input type="text" placeholder="enter your name">
+                  
+                    <label for="fname">First name:</label><br>
+                    <input type="text" placeholder="enter your first name"><br></div>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" placeholder="enter your last name"><br>
+                    <label for="email">email</label><br>
+                    <input type="text" placeholder="exmple@gmail.com"><br>
+                    <label for="Gender">Gender</label><br>
+                    <input type="radio" id="Male" name="fav_language" value="HTML">
+                    <label for="html">Male</label>&nbsp;&nbsp;&nbsp;
+                    <input type="radio" id="Female" name="fav_language" value="CSS">
+                    <label for="css">Female</label>&nbsp;&nbsp;&nbsp;
+                    <input type="radio" id="Others" name="fav_language" value="JavaScript">
+                    <label for="javascript">Others</label>&nbsp;<br>
+                    <lable for="number">number</lable><br>
+                    <select id="Number" name="number"><br>
+                        <option value="Dr">+91</option><br>
+                        <option value="Dr">+80</option>
+                        <option value="Dr">+01</option>&nbsp;
+                        <input type="text" placeholder="00000000"><br>
+                        <label for="birthday">Date of birth</label><br>
+                        <input type="date" id="birthday" name="dd-mm-yyyy"><br>
+                        <label for="birthday">Address</label><br>
+                        <input type="txet" placeholder="Building name,Streel no"><br>
+                        <lable for="state">state</lable><br>
+                        <select id="state" name="state"><br>
+                            <option value="Dr">State your state</option><br>
+                            <option value="Dr">Gujrat</option>
+                            <option value="Dr">Panjab</option>
+                            <option value="Dr">Bihar</option><br>
+                            <!-- <label for="cars">Selecte your city</label><br>
+                            <select name="cars" id="cars"><br>
+                              <option value="volvo">Rajkot</option>
+                              <option value="saab">Surat</option>
+                              <option value="opel">Gondal</option> --><br>
+                            <label for="Pin code">Pin code</label><br>
+                            <input type="text" placeholder="Enter your pin code"><br>
+
+                            <label for="Aadhar card">aadhar card</label><br>
+
+                            <input type="text" placeholder="Upload your Aadhar card">
+
+
+                            <button>Upload</button>
+
+
+
+
+
+
+                </form>
+            </div>
+        </div>
+        <span><strong>Personal Information</strong></span>
+        <div class="details2">
+            <div class="info2">
+                <label for="fname">Registration ID</label><br>
+                <input type="text" placeholder="enter your Registration ID"><br>
+                <lable for="state">state</lable><br>
+                <select id="state" name="Year of Registration"><br>
+                    <option value="Dr">YYYY</option><br>
+                    <option value="Dr">2023</option>
+                    <option value="Dr">2013</option>
+                    <option value="Dr">2022</option><br>
+
+            </div>
+
+ 
+        </div>
+        <div class="del3">
+            <div class="info3">
+                <label for="fname">Registration ID</label><br>
+                <input type="text" placeholder="enter your Registration ID"><br>
+                <label for="fname">Registration Document</label><br>
+                <input type="text" placeholder="enter your  Document"><br>
+                
+
+            </div>
+        </div>
+        <div class="sub-btn">
+            <button>SAVE</button>
+        </div>
+        
+    </div>
+
+
+
+    </div>
+</body>
+
+</html>
