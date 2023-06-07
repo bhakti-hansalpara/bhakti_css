@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: ;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+  </style>
+</head>
+
+<body>
+  <header class="site-header sticky-top py-1">
+    <nav class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="#" aria-label="Product">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+      </a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+    </nav>
+  </header>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./image-bt/1.0_pic.jpg" class="d-block w-100" alt="1-pic" width="1146px" height="435px">
+      </div>
+      <div class="carousel-item">
+        <img src="./image-bt/2pic.jpg" class="d-block w-100" alt="2pic" width="1146px" height="435px">
+      </div>
+      <div class="carousel-item">
+        <img src="./image-bt/3_pic.jpg" class="d-block w-100" alt="3_pic" width="1146px" height="435px">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container my-4">
+    <div class="row">
+      <div class="card col-auto mx-4" style="width: 18rem;">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <img src="./image-bt/1-pic.jpg" class="img-thumbnail mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gujrat</h5>
+          <p class="card-text">Gujarat is a state along the western coast of India. Its coastline of about 1,600 km (990 mi) is the longest in the country, most of which lies on the</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card col-auto mx-4" style="width: 18rem;">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <img src="./image-bt/1-pic.jpg" class="img-thumbnail mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Manali</h5>
+          <p class="card-text">Manali is a town, near Kullu town in Kullu district in the Indian state of Himachal Pradesh. ... It is situated in the northern end of the Kullu Valley, formed by ..
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card col-auto mx-4" style="width: 18rem;">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <img src="./image-bt/1-pic.jpg" class="img-thumbnail mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Kasmir</h5>
+          <p class="card-text">Kashmir is the northernmost geographical region of the Indian subcontinent. Until the mid-19th century, the term "Kashmir" denoted only the Kashmir Valley
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="container mt-8">
+    <div>
+      <form class="row">
+        <div class="mb-3 bg-red col-lg-8">
+          <div>
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <!-- <div class="mb-3"> -->
+          <div>
+
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <div>
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+
+          <!-- </div> -->
+        </div>
+        <div class="col-lg-4">
+          <div class="container mt-8">
+            <div class="card" style="width: 18rem;">
+              <img src="./image-bt/3_pic.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <div class="bg-dark text-secondary px-4 py-5 text-center">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
+          <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider mb-0"></div>
+</main>
+
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      
+</body>
+
+</html>
